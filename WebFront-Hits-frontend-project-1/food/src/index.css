@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: white;
+  color: #222;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  width: 1920px;
+}
+
+.header {
+  position: absolute;
+}
+
+
+header .logo{
+  
+  margin: 30px 70px;
+ font-weight: 400;
+ font-size: 40px;
+}
+
+header ul.InfoOfTop {
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  float: right;
+  list-style: none;
+  margin-right: 70px ;
+}
+
+header ul.InfoOfTop li {
+  text-decoration: none;
+  display: inline;
+  margin-right: 40px; 
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+
+header ul.InfoOfTop li:hover {
+  opacity: 0.5;
+}
+
+div .MainPhoto {
+  margin: 30px 70px ;
+  background: url('./img/for-delivery-main-pic-1920x1080.webp') no-repeat;
+  width: 91%;
+  height: 800px;
+  background-size: cover ;
+  background-position:center center ;
+  background-blend-mode:multiply ;
+  background-color: rgb(54, 53, 53);
+  position: relative;
+}
+
+div .MainPhoto::after{
+  content: 'Лучшая еда для твоего живота';
+  position: absolute;
+  left: 30px;
+  top: 150px;
+  width: 400px;
+  font-size: 60px;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+
+div .MainPhoto::before{
+  content: 'По низким ценам';
+  position: absolute;
+  left: 30px;
+  top: 370px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(189, 179, 165);
+}
+
+header .Cart{
+  margin-top: 1.14%;
+margin-left: 56.50%;
+
+
+}
+
+header .ShopRoll {
+  position: absolute;
+  width: 450px;
+  min-height: 150px;
+  background: black;
+  top: 50px; 
+  right: 0; 
+  z-index: 2; 
+}
+  
+
+
+
+
+.food {
+  margin-left: 70px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+main .food {
+  width: 20%;
+  transition: transform 100ms ease ;
+}
+
+main .food img {
+  width: 100%;
+}
+
+main .food img:hover {
+  transform: scale(1.05);
+}
+
+main h2, main p, main b , .add-to-card{
+  margin: 10px 50px;
+  color: #222;
+}
+
+.add-to-card {
+right: 20px;
+bottom: 200px;
+background: coral;
+width: 85px;
+height: 35px;
+color: #222;
+border-radius: 50px ;
+text-align: center;
+margin-left: 150px;
+margin-top: 10px;
+}

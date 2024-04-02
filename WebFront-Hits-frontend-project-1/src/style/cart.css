@@ -1,0 +1,66 @@
+
+.addToZakaz {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cart-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-item {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin: 10px 0; 
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-item img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.info {
+  flex: 1;
+}
+
+.amount-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.amount-container label {
+  margin-right: 10px;
+}
+
+.amount-input {
+  width: 40px;
+  text-align: center;
+}
+
+.total-price {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.cart-list {
+  border: 1px solid #ddd;
+  padding: 10px;
+}

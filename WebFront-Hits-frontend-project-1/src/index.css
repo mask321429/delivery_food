@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+form input[name="fullName"],
+form input[name="gender"],
+form input[name="mobile"],
+form input[name="birthdate"],
+form input[name="email"],
+form input[name="password"] {
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+

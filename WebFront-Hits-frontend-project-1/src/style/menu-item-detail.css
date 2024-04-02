@@ -1,0 +1,41 @@
+
+
+
+.menu-item-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .menu-item-detail h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .menu-item-detail img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 0 20px;
+  }
+  
+
+  .menu-item-detail p {
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  
+
+  .menu-item-detail .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c; 
+  }
+  
